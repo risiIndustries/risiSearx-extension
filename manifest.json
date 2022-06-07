@@ -1,0 +1,25 @@
+{
+  "name": "risiSearx",
+  "description": "SearXNG Instance",
+  "version": "1.1",
+  "default_locale": "en",
+  "homepage_url": "https://searx.risi.io",
+  "icons": {
+    "16": "img/favicon16.png",
+    "48": "img/favicon48.png",
+    "128": "img/favicon128.png",
+	"256": "img/favicon256.png"
+  },
+  "manifest_version": 2,
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "risiSearx",
+      "keyword": "rs",
+      "search_url": "https://searx.risi.io/search?q={searchTerms}",
+      "favicon_url": "https://searx.risi.io/favicon.ico",
+      "suggest_url": "https://searx.risi.io/autocompleter?q={searchTerms}",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  }
+}
