@@ -14,7 +14,7 @@ Summary:        SearXNG instance for risiOS
 
 License:        GPLv3+
 URL:            https://searx.risi.io
-Source0:        https://github.com/risiOS/risiSearx-extension/archive/refs/tags/%{version}.zip
+Source0:        https://github.com/risiOS/risiSearx-extension/releases/download/%{version}/%{version}.xpi
 Requires:       mozilla-filesystem
 BuildArch:      noarch
 
