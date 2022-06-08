@@ -22,7 +22,6 @@ BuildArch:      noarch
 Sets default search engine to risiSearx
 
 %prep
-%setup
 
 %build
 echo Nothing to build
