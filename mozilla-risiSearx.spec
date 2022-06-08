@@ -30,7 +30,6 @@ echo Nothing to build
 install -Dpm644 %{SOURCE0} %{buildroot}%{firefox_inst_dir}/%{ext_id}.xpi
 
 %files
-%license LICENSE
 %{firefox_inst_dir}/%{ext_id}.xpi
 
 %changelog
