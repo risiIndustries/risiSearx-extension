@@ -1,7 +1,7 @@
 {
   "name": "risiSearx",
   "description": "SearXNG Instance",
-  "version": "1.1",
+  "version": "1.0",
   "default_locale": "en",
   "homepage_url": "https://searx.risi.io",
   "icons": {
@@ -21,5 +21,10 @@
       "encoding": "UTF-8",
       "is_default": true
     }
+  },
+  "browser_specific_settings": {
+	  "gecko": {
+		"id": "searx@risi.io"
+	  }
   }
 }
